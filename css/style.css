@@ -418,7 +418,9 @@ footer{
     flex-direction: column;
     align-items: center;
   }
-
+  .projects{
+    font-size: 10px;
+  }
   .project {
     width: 90%;
     height: auto;
@@ -466,6 +468,9 @@ footer{
     font-size: 14px;
   }
 
+  .projects{
+    font-size: 10px;
+  }
   .cards {
     grid-template-columns: 1fr; /* كل كارد في سطر */
   }
