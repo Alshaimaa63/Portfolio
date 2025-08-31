@@ -395,7 +395,7 @@ footer{
   main {
     flex-direction: column;
     gap: 30px;
-    padding-top: 120px; /* عشان الـ header fixed */
+    padding-top: 120px; 
     text-align: center;
   }
 
@@ -441,7 +441,7 @@ footer{
   }
 }
 
-/* 📱 Small phones */
+
 @media (max-width: 576px) {
   body {
     font-size: 16px;
@@ -472,7 +472,7 @@ footer{
     font-size: 10px;
   }
   .cards {
-    grid-template-columns: 1fr; /* كل كارد في سطر */
+    grid-template-columns: 1fr; 
   }
 
   .contact-container h3 {
