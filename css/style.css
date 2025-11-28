@@ -126,12 +126,12 @@ main ul a:hover{
         content: "";
     }
     10%{
-        content: "Frontend ";
+        content: "Fr ";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
     20%{
-        content: "Frontend Developer";
+        content: "Front";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
@@ -141,40 +141,31 @@ main ul a:hover{
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
     40%{
-        content: "";
+        content: "Frontend ";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
     50%{
-        content: "Software ";
+        content: "Frontend De";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
     60%{
-        content: "Software Tester";
+        content: "Frontend Deve";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
     70%{
-        content: "Software";
+        content: "Frontend Develo";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
     80%{
-        content: "";
+        content: "Frontend Developer";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
-    90%{
-        content: "Graphic";
-        color: var(--accentColor);
-        text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
-    }
-    100%{
-        content: "Graphic Design";
-        color: var(--accentColor);
-        text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
-    }
+    
 }
 .about{
     min-height: 100vh;
