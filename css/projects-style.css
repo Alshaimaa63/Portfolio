@@ -1,23 +1,25 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-  outline: none;
-  text-decoration: none;
-  list-style-type: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
 }
-:root{
+
+:root {
     --backgroundMain: #0a0a0a;
     --BackgroundSec: #111111;
-    --cards:  rgba(255, 255, 255, 0.1);
+    --cards: rgba(255, 255, 255, 0.1);
     --TextMain: #ffffff;
     --TextSec: #9e9c9c;
     --accentColor: #00adb5;
     --hoverEffect: #14ffff;
     --glow: #00adb5;
 }
-body{
+
+body {
     height: 100svh;
     max-width: 100svw;
     position: relative;
@@ -26,7 +28,7 @@ body{
     color: #eeeeee;
 }
 
-/* Navbar */
+
 .navbar {
     background-color: #111111;
     padding: 15px 30px;
@@ -52,6 +54,7 @@ body{
     color: #00adb5;
     text-shadow: 0 0 10px #00adb5;
 }
+
 .title {
     text-align: center;
     margin: 40px 0;
