@@ -1,22 +1,24 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-  outline: none;
-  text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
 }
-:root{
+
+:root {
     --backgroundMain: #0a0a0a;
     --BackgroundSec: #111111;
-    --cards:  rgba(255, 255, 255, 0.1);
+    --cards: rgba(255, 255, 255, 0.1);
     --TextMain: #ffffff;
     --TextSec: #9e9c9c;
     --accentColor: #00adb5;
     --hoverEffect: #14ffff;
     --glow: #00adb5;
 }
-body{
+
+body {
     height: 100svh;
     max-width: 100svw;
     position: relative;
@@ -25,7 +27,8 @@ body{
     word-spacing: 2px;
     font-size: 20px;
 }
-header{
+
+header {
     width: 100%;
     background-color: var(--backgroundMain);
     display: flex;
@@ -37,24 +40,30 @@ header{
     position: fixed;
     z-index: 1000;
 }
-nav ul, main ul{
+
+nav ul,
+main ul {
     display: flex;
     gap: 50px;
     list-style-type: none;
 }
-nav a{
+
+nav a {
     color: var(--TextMain);
     font-size: 20px;
 }
-nav a:hover{
-    color: var(--hoverEffect); 
+
+nav a:hover {
+    color: var(--hoverEffect);
     text-shadow: 0 0 20px var(--accentColor), 0 0 30px var(--accentColor), 0 0 40px var(--accentColor);
     transition: 0.3s ease;
 }
-main ul{
+
+main ul {
     gap: 10px;
 }
-main{
+
+main {
     min-width: 100%;
     min-height: 100vh;
     background-color: var(--backgroundMain);
@@ -67,30 +76,36 @@ main{
     font-size: 30px;
     padding: 10px 20px;
 }
-main img{
+
+main img {
     width: 336px;
     height: 336px;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--glow),
-                0 0 45px var(--glow); 
+        0 0 45px var(--glow);
 }
-.main_text{
+
+.main_text {
     min-width: 50%;
     padding: 10px 20px;
 }
-main h3{
+
+main h3 {
     font-size: 25px;
     margin: 20px 0;
     color: var(--TextSec);
 }
+
 .h3_text {
     display: flex;
     gap: 15px;
 }
-main a{
+
+main a {
     color: var(--TextMain);
 }
-main button{
+
+main button {
     padding: 18px 55px;
     background-color: var(--accentColor);
     margin-top: 20px;
@@ -98,228 +113,268 @@ main button{
     cursor: pointer;
     font-size: 16px;
 }
-.mail{
+
+.mail {
     background-color: var(--BackgroundSec);
     border: 1px solid var(--accentColor);
     color: var(--TextMain);
 }
+
 main button:hover,
-.cv-btn:hover{
-    background-color: var(--hoverEffect);  
-    color: #0a0a0a;             
+.cv-btn:hover {
+    background-color: var(--hoverEffect);
+    color: #0a0a0a;
     box-shadow: 0 0 15px var(--glow),
-                0 0 35px var(--glow); 
+        0 0 35px var(--glow);
     transition: 0.3s ease;
 }
-main ul a:hover{
+
+main ul a:hover {
     color: var(--accentColor);
 }
-.animation_text::before{
+
+.animation_text::before {
     content: " ";
     animation-name: typing;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-delay: 0.5s;
 }
+
 @keyframes typing {
-    0%{
+    0% {
         content: "";
     }
-    10%{
+
+    10% {
         content: "Fr ";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
-    20%{
+
+    20% {
         content: "Front";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
-    30%{
+
+    30% {
         content: "Frontend";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
-    40%{
+
+    40% {
         content: "Frontend ";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
-    50%{
+
+    50% {
         content: "Frontend De";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
-    60%{
+
+    60% {
         content: "Frontend Deve";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
-    70%{
+
+    70% {
         content: "Frontend Develo";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
-    80%{
+
+    80% {
         content: "Frontend Developer";
         color: var(--accentColor);
         text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
     }
-    
+
 }
-.about{
+
+.about {
     min-height: 100vh;
     padding: 30px;
     gap: 4%;
     background-color: var(--BackgroundSec);
     color: var(--TextSec);
-    
+
 }
-.about-container{
+
+.about-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
 }
-.about_text{
+
+.about_text {
     width: 60%;
 }
+
 .about h2,
 .projects h2,
 .skills h2,
-.contact h2{
+.contact h2 {
     margin-bottom: 40px;
-    color:var(--accentColor); /* Accent */
+    color: var(--accentColor);
+    /* Accent */
     text-shadow: 0 0 10px var(--accentColor);
     text-align: center;
     font-size: 2.5rem;
 }
-.about p{
+
+.about p {
     padding-bottom: 10px;
 }
+
 .about h3,
-.projects a h3{
+.projects a h3 {
     color: var(--TextMain);
 }
-.about_text ul{
+
+.about_text ul {
     padding: 0 40px;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
-.cv-btn{
+
+.cv-btn {
     padding: 10px 20px;
     background-color: var(--accentColor);
     text-decoration: none;
     border-radius: 3px;
     color: var(--TextMain);
 }
-.projects{
+
+.projects {
     min-height: 90vh;
     background-color: var(--backgroundMain);
     color: var(--TextSec);
     padding: 30px;
     font-size: 20px;
 }
-.projects-container{
+
+.projects-container {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
-.projects i{
+
+.projects i {
     padding-left: 45%;
     font-size: 25px;
     color: var(--accentColor);
 }
-.project{
+
+.project {
     height: 40vh;
     min-width: 30%;
     background-color: var(--cards);
     border-radius: 20px;
     padding: 10px 20px;
 }
-.project a{
+
+.project a {
     width: 100%;
     height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: var(--TextSec); 
+    color: var(--TextSec);
 }
 
 .project:hover {
-  transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 0 20px var(--glow);
-  background-color: rgb(255 255 255 / 22%);
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 20px var(--glow);
+    background-color: rgb(255 255 255 / 22%);
 }
-.project:hover i{
+
+.project:hover i {
     color: var(--TextMain);
     filter: drop-shadow(0 0 10px #00adb5);
 }
+
 .skills {
-  background: #111111; 
-  padding: 60px 20px;
-  color: #eeeeee;
-  text-align: center;
+    background: #111111;
+    padding: 60px 20px;
+    color: #eeeeee;
+    text-align: center;
 }
+
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 25px;
-  justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
 }
+
 .card {
-  width: 220px;
-  height: 220px;
-  perspective: 1000px; 
+    width: 220px;
+    height: 220px;
+    perspective: 1000px;
 }
+
 .inner {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
+
 .card:hover .inner {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
-.front, .back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  border-radius: 15px;
-  font-size: 18px;
-  font-weight: bold;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-}
-.front {
-  background-color: #1a1a1a;
-  color: #eeeeee;
-}
+
+.front,
 .back {
-  background-color: var(--accentColor);
-  color: #111111;
-  transform: rotateY(180deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
+
+.front {
+    background-color: #1a1a1a;
+    color: #eeeeee;
+}
+
+.back {
+    background-color: var(--accentColor);
+    color: #111111;
+    transform: rotateY(180deg);
+}
+
 .card:hover i {
-  color: #ffffff;
-  filter: drop-shadow(0 0 10px var(--accentColor));
+    color: #ffffff;
+    filter: drop-shadow(0 0 10px var(--accentColor));
 }
-.contact{
+
+.contact {
     background-color: var(--backgroundMain);
     min-height: 60vh;
     color: var(--TextSec);
     padding: 20px;
 }
-.contact-container{
+
+.contact-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -328,23 +383,28 @@ main ul a:hover{
     gap: 3%;
     padding: 20px 10px;
 }
-.contact-text{
+
+.contact-text {
     width: 40%;
     border-radius: 40px;
     background-color: var(--cards);
     padding: 30px;
 }
-.contact-text a{
+
+.contact-text a {
     color: var(--TextMain);
 }
-.contact-icons{
-    width: 40%; 
+
+.contact-icons {
+    width: 40%;
 }
-.contact-container h3{
+
+.contact-container h3 {
     color: var(--TextMain);
     font-size: 30px;
 }
-.contact-icons ul{
+
+.contact-icons ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -353,120 +413,128 @@ main ul a:hover{
     gap: 40px;
     margin: 50px 0;
 }
-.contact-icons a{
+
+.contact-icons a {
     font-size: 25px;
     color: var(--TextSec);
 }
-.contact-text:hover{
+
+.contact-text:hover {
     background-color: rgb(255 255 255 / 22%);
 }
-.contact-icons li a:hover{
+
+.contact-icons li a:hover {
     color: var(--hoverEffect);
 }
-footer{
+
+footer {
     text-align: center;
     padding: 30px;
     background-color: var(--backgroundMain);
     color: var(--accentColor);
 }
+
 @media (max-width: 992px) {
-  header {
-    flex-direction: column;
-    gap: 15px;
-    padding: 15px;
-    position: relative;
-  }
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+        position: relative;
+    }
 
-  nav ul {
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    nav ul {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-  main {
-    flex-direction: column;
-    gap: 30px;
-    padding-top: 120px; 
-    text-align: center;
-  }
+    main {
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 120px;
+        text-align: center;
+    }
 
-  main img {
-    width: 220px;
-    height: 220px;
-  }
+    main img {
+        width: 220px;
+        height: 220px;
+    }
 
-  .main_text {
-    min-width: 100%;
-    padding: 0;
-  }
+    .main_text {
+        min-width: 100%;
+        padding: 0;
+    }
 
-  .about_text {
-    width: 100%;
-    text-align: center;
-  }
+    .about_text {
+        width: 100%;
+        text-align: center;
+    }
 
-  .projects-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .projects{
-    font-size: 10px;
-  }
-  .project {
-    width: 90%;
-    height: auto;
-  }
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .projects {
+        font-size: 10px;
+    }
 
-  .contact-container {
-    flex-direction: column;
-    gap: 20px;
-  }
+    .project {
+        width: 90%;
+        height: auto;
+    }
 
-  .contact-text,
-  .contact-icons {
-    width: 100%;
-  }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-text,
+    .contact-icons {
+        width: 100%;
+    }
 }
 
 
 @media (max-width: 576px) {
-  body {
-    font-size: 16px;
-  }
+    body {
+        font-size: 16px;
+    }
 
-  header {
-    padding: 10px;
-  }
+    header {
+        padding: 10px;
+    }
 
-  nav ul {
-    gap: 10px;
-  }
+    nav ul {
+        gap: 10px;
+    }
 
-  main h2 {
-    font-size: 28px;
-  }
+    main h2 {
+        font-size: 28px;
+    }
 
-  main h3 {
-    font-size: 20px;
-  }
+    main h3 {
+        font-size: 20px;
+    }
 
-  main button {
-    padding: 12px 25px;
-    font-size: 14px;
-  }
+    main button {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
 
-  .projects{
-    font-size: 10px;
-  }
-  .cards {
-    grid-template-columns: 1fr; 
-  }
+    .projects {
+        font-size: 10px;
+    }
 
-  .contact-container h3 {
-    font-size: 22px;
-  }
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container h3 {
+        font-size: 22px;
+    }
 }
