@@ -22,7 +22,7 @@ body {
     height: 100svh;
     max-width: 100svw;
     position: relative;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     line-height: 1.6;
     word-spacing: 2px;
     font-size: 20px;
