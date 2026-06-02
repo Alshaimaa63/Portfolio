@@ -6,106 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>Al Shaimaa Abo Al-Ela</title>
+    <title>Al Shaimaa Ashraf</title>
 </head>
 
 <body>
     <header>
-        <h2>Portfolio</h2>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#projects">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
+        <div class="header-icons">
+            <a href="https://github.com/Alshaimaa63" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/al-shaimaa-abo-al-ela/" target="_blank">LinkedIn</a>
+        </div>
     </header>
+
     <main>
-        <img src="./images/photo.jpg" alt="">
-        <div class="main_text">
-            <h2>Al Shaimaa Abo Al-Ela</h2>
-            <div class="h3_text">
-                <h3>I'm a </h3>
-                <h3 class="animation_text"></h3>
+        <div class="main-text">
+            <h1>Al Shaimaa Abo Al-Ela</h1>
+            <h2 class="">
+                I am
+                <span class="" id="typing-text"></span>
+            </h2>
+            <p>A dedicated CS Student and versatile professional bridging the gap between rigorous Software Testing and
+                elegant Front-End Development.</p>
+            <div class="main-btn">
+                <a href="./projects.html" target="_blank" class="first_btn"><button>VIEW PROJECTS</button></a>
+                <a href="./img/Al Shaimaa Ashraf.pdf" target="_blank" class="second_btn">
+                    <button>DOWNLOAD CV</button>
+                </a>
             </div>
-            <ul>
-                <li><a href="https://github.com/Alshaimaa63" target="_blank"><i
-                            class="fa-brands fa-square-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/al-shaimaa-abo-al-ela/" target="_blank"><i
-                            class="fa-brands fa-linkedin"></i></a></li>
-                </li>
-            </ul>
-            <button class="v.project"><a href="#projects">VIEW PROJECTS</a></button>
-            <button class="mail"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=alshaimaaaboalela@gmail.com"
-                    target="_blank">
-                    E-MAIL
-                </a></button>
         </div>
+        <img src="./img/me.jpg" alt="Al Shaimaa Abo Al-Ela" class="main-img">
     </main>
+
     <section class="about" id="about">
-        <h2>About Me</h2>
-        <div class="about-container">
-            <div class="about_text">
-                <p>Hi, I’m Shaimaa Abo Al Ela, a Front-End Developer and Software Tester.
-                    I combine problem-solving with creativity to deliver quality projects — from manual testing, to
-                    building websites with HTML, CSS, and JavaScript, and designing visuals that stand out.</p>
-                <p>I’m always eager to learn new technologies, sharpen my problem-solving skills, and grow as a
-                    professional
-                    in the software industry.</p>
-                <h3>Education</h3>
-                <ul>
-                    <li>Student at the Faculty of Computers and Information, Assiut University.</li>
-                    <li>Member of ICPC Asyut community.</li>
-                    <li>Participant in the Digital Egypt Pioneers Initiative (DEPI) specialized in Software Testing.
-                    </li>
-                    <li>Participant in the NTI specialized in Web Design.</li>
-                </ul>
-                <a href="./Al Shaimaa Ashraf.pdf" target="_blank" class="cv-btn">View CV</a>
-                <a href="./Al Shaimaa Ashraf.pdf" download class="cv-btn" target="_blank">Download CV</a>
+        <div class="left-side">
+            <h2>About Me</h2>
+            <div class="info-card">
+                <h3>3rd Year</h3>
+                <h5>Computer Science Student</h5>
+            </div>
+            <div class="info-card">
+                <h3>ICPC</h3>
+                <h5>active participant & problem solver</h5>
+            </div>
+        </div>
+        <div class="right-side">
+            <p><span>M</span>y journey in technology is driven by a profound curiosity for how systems work and a
+                passion for
+                creating seamless user experiences. As a Computer Science student, I have immersed myself in
+                competitive programming, honing my problem-solving skills through the ICPC.
+            </p>
+            <p>Beyond the code, I bring a designer's eye to development, ensuring that every project I touch is not
+                only
+                functionally sound through rigorous testing but also visually compelling and intuitive. Whether it's
+                crafting an ASP.NET backend or ensuring a website's quality through automated testing, I strive for
+                precision in every line of code.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fa-solid fa-certificate"></i>
+                    <h3>Quality First</h3>
+                    <p>Committed to bug-free deployments and optimal performance.</p>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Creative Mind</h3>
+                    <p>Blending technical prowess with graphic design sensibilities</p>
+                </div>
             </div>
         </div>
     </section>
-    <section class="projects" id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of the projects I’ve worked on across software testing, front-end development. Each project
-            reflects my skills, creativity, and passion for technology.</p>
-        <div class="projects-container">
-            <div class="project">
-                <a href="./index2.html">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>Web Development</h3>
-                    <pre>MY web projects</pre>
-                </a>
-            </div>
-            <div class="project">
-                <a href="https://github.com/Rawan-Arby/Project-DEPI-Software-Testing" target="_blank">
-                    <i class="fa-solid fa-bug"></i>
-                    <h3>Software Testing </h3>
-                    <pre>Manual and automation testing 
-with Selenium & TestNG</pre>
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="skills">
-        <h2>Skills</h2>
+
+    <section class="skills" id="skills">
+        <h2>Technical & Soft Expertise</h2>
         <div class="cards">
             <div class="card">
                 <div class="inner">
                     <div class="front">Programming Languages</div>
                     <div class="back">
-                        <p>C++</p>
-                        <p>Java</p>
-                        <p>C#</p>
-                        <p>Python</p>
+                        <p>Strong foundations in algorithms and scripting for automation.</p>
+                        <p>C++, Java, C#, Python</p>
                     </div>
                 </div>
             </div>
@@ -114,9 +106,9 @@ with Selenium & TestNG</pre>
                 <div class="inner">
                     <div class="front">Web Development</div>
                     <div class="back">
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
+                        <p>Creating responsive, interactive, and accessible web interfaces.</p>
+                        <p>HTML, CSS, JavaScript</p>
+
                     </div>
                 </div>
             </div>
@@ -125,6 +117,7 @@ with Selenium & TestNG</pre>
                 <div class="inner">
                     <div class="front">Software Testing</div>
                     <div class="back">
+                        <p>Ensuring software quality through structured testing and bug detection.</p>
                         <p>Manual Testing</p>
                     </div>
                 </div>
@@ -134,19 +127,17 @@ with Selenium & TestNG</pre>
                 <div class="inner">
                     <div class="front">Tools & Platforms</div>
                     <div class="back">
-                        <p>VS Code</p>
-                        <p>MySQL Workbench</p>
-                        <p>Git & GitHub</p>
+                        <p>Using modern development and collaboration tools efficiently.</p>
+                        <p>VS Code, Git & GitHub, MySQL Server, ......</p>
                     </div>
                 </div>
             </div>
 
             <div class="card">
                 <div class="inner">
-                    <div class="front">Design</div>
+                    <div class="front">Creativity</div>
                     <div class="back">
-                        <p>Adobe Photoshop</p>
-                        <p>Adobe Illustrator</p>
+                        <p>Translating complex ideas into beautiful, functional designs.</p>
                     </div>
                 </div>
             </div>
@@ -163,52 +154,170 @@ with Selenium & TestNG</pre>
             </div>
         </div>
     </section>
+
+    <section class="experience" id="experience">
+        <div class="title">
+            <h3>Professional Evolution</h3>
+            <h2>Work & Training</h2>
+        </div>
+
+        <div class="timeline">
+
+            <!-- item 1 -->
+            <div class="timeline-item right">
+                <div class="date">2023 - 2025</div>
+                <div class="middle">
+                    <span class="circle"></span>
+                </div>
+                <div class="content">
+                    <h3>ICPC Participant</h3>
+                    <h4>Competitive Programming</h4>
+                    <p>
+                        Solving complex algorithmic challenges and optimizing data
+                        structures under pressure.
+                    </p>
+                </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="timeline-item left">
+                <div class="date">2024 - 2025</div>
+                <div class="middle">
+                    <span class="circle"></span>
+                </div>
+                <div class="content">
+                    <h3>DEPI Trainee</h3>
+                    <h4>Software Testing Specialization</h4>
+                    <p>
+                        In-depth training on manual and automated testing methodologies.
+                    </p>
+                </div>
+            </div>
+
+            <!-- item 3 -->
+            <div class="timeline-item right">
+                <div class="date">2025</div>
+                <div class="middle">
+                    <span class="circle"></span>
+                </div>
+                <div class="content">
+                    <h3>NTI Training</h3>
+                    <h4>Web & Network Fundamentals</h4>
+                    <p>
+                        Comprehensive training in networking and web technologies.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="title-section">
+            <div class="title">
+                <h3>Creative Endeavors</h3>
+                <h2>Projects & Achievements</h2>
+            </div>
+            <div class="view-all">
+                <a href="./projects.html">View All Projects</a>
+            </div>
+        </div>
+        <div class="projects-container">
+            <!-- project 1 -->
+            <div class="project-card">
+                <img src="./img/HomeServices.jpeg" alt="ServicePro">
+                <div class="overlay">
+                    <h3>ServicePro</h3>
+                    <p>
+                        Professional marketplace web app built with
+                        ASP.NET Core MVC for connecting customers
+                        with service providers.
+                    </p>
+                    <div class="tech">
+                        <span>C#</span>
+                        <span>ASP.NET</span>
+                        <span>SQL</span>
+                    </div>
+                    <div class="buttons">
+                        <a href="https://github.com/Alshaimaa63/Home-Emergency-Services-Management-System"
+                            target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- project 2 -->
+            <div class="project-card">
+                <img src="./img/MyLibrary.png" alt="MyLibrary">
+                <div class="overlay">
+                    <h3>MyLibrary</h3>
+                    <p>Responsive library website using HTML, CSS, and JavaScript.</p>
+                    <div class="tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="buttons">
+                        <a href="https://github.com/Alshaimaa63/MyLibrary" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="contact" id="contact">
-        <h2>Contact Me</h2>
+        <div class="title">
+            <h3>Get in Touch</h3>
+            <h2>Contact & Connections</h2>
+        </div>
+        
         <div class="contact-container">
-            <div class="contact-text">
+            <div class="contact-left-side">
                 <h3>Let’s Work Together</h3>
-                <p>I’m open to opportunities in Software Testing, Front-End Development, and Graphic Design.
+                <p>I’m open to opportunities in Software Testing, Front-End Development.
                     If you’re looking for someone detail-oriented and creative to join your team or collaborate on a
-                    project, feel free to reach out.</p>
+                    project, feel free to reach out.
+                </p>
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alshaimaaaboalela@gmail.com" target="_blank">
                     alshaimaaaboalela@gmail.com
                 </a>
             </div>
-            <div class="contact-icons">
+            <div class="contact-right-side">
                 <h3>Elsewhere</h3>
-                <ul>
-                    <li>
+                <div class="contact-icons">
+                    <div class= "left-icons">
                         <a href="https://www.linkedin.com/in/al-shaimaa-abo-al-ela/" target="_blank">
                             <i class="fa-brands fa-linkedin"></i> Linkedin
                         </a>
-                    </li>
-                    <li>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alshaimaaaboalela@gmail.com"
+                            target="_blank">
+                            <i class="fa-solid fa-envelope"></i> E-Mail
+                        </a>
+                    </div>
+                    <div class= "right-icons">
                         <a href="https://github.com/Alshaimaa63" target="_blank">
                             <i class="fa-brands fa-square-github"></i> GitHub
                         </a>
-                    </li>
-
-                </ul>
-                <ul>
-                    <li>
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alshaimaaaboalela@gmail.com"
-                            target="_blank">
-                            <i class="fa-solid fa-envelope"></i> E-mail
+                        <a href="./img/Al Shaimaa Ashraf.pdf" target="_blank">
+                            <i class="fa-solid fa-file"></i> CV
                         </a>
-                    </li>
-                    <li>
-                        <a href="./Al Shaimaa Ashraf.pdf" target="_blank">
-                            <i class="fa-solid fa-file"></i>Read CV
-                        </a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
     <footer>
-        &copy; Copyright 2025
+        &copy; 2025 Al Shaimaa Abo Al-Ela. 
     </footer>
+
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
