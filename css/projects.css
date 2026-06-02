@@ -189,6 +189,10 @@ main p {
 
 @media(max-width:768px) {
 
+    .hide-mobile {
+        display: none;
+    }
+    
     nav ul {
         gap: 10px;
     }
